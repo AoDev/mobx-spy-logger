@@ -1,5 +1,10 @@
 # mobx-spy-logger
-Easy to read, customisable mobx events logger based on mobx.spy.
+**Easy to read, customisable mobx events logger based on mobx.spy.**
+
+This module extracts relevant data from mobx spy events and "pretty prints" them.  
+A particular feature is that it tries to guess `ids` from your observables to easily filter
+the changes you are interested in. You can also provide your own loggers if necessary :)
+
 
 <img align="center" src="https://github.com/AoDev/mobx-spy-logger/blob/master/docs/images/mobx-spy-logger-cryptovista-screencast.gif" width="640" alt="mobx spy logger in action screencast"/>
 
@@ -8,6 +13,12 @@ Easy to read, customisable mobx events logger based on mobx.spy.
 This lib has peer dependencies:
 * `mobx`
 * `lodash` (I'll try to remove it if it's a problem)
+
+## Install
+
+```
+npm install mobx-spy-logger -DE
+```
 
 ## Usage
 The logger has "sane" defaults, for a quick start, you just need two lines of code:
