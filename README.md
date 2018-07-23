@@ -1,7 +1,7 @@
 # mobx-spy-logger
 Easy to read, customisable mobx events logger based on mobx.spy.
 
-<img align="center" src="https://github.com/AoDev/mobx-spy-logger/blob/master/docs/images/mobx-spy-logger-cryptovista-screencast.gif" width="962" alt="mobx spy logger in action screencast"/>
+<img align="center" src="https://github.com/AoDev/mobx-spy-logger/blob/master/docs/images/mobx-spy-logger-cryptovista-screencast.gif" width="640" alt="mobx spy logger in action screencast"/>
 
 ## Usage
 ```javascript
