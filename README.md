@@ -3,13 +3,21 @@ Easy to read, customisable mobx events logger based on mobx.spy.
 
 <img align="center" src="https://github.com/AoDev/mobx-spy-logger/blob/master/docs/images/mobx-spy-logger-cryptovista-screencast.gif" width="640" alt="mobx spy logger in action screencast"/>
 
+## Requirements
+
+This lib has peer dependencies:
+* `mobx`
+* `lodash` (I'll try to remove it if it's a problem)
+
 ## Usage
+The logger has "sane" defaults, for a quick start, you just need two lines of code:
+
 ```javascript
 import mobxSpyLogger from 'mobx-spy-logger'
 mobxSpyLogger.start()
 ```
 
-mobxSpyLogger.start() returns a mobx dispose function. You can stop logging this way.
+mobxSpyLogger.start() returns a mobx dispose function. You can stop logging this way if needed.
 ```javascript
 const stopLogging = mobxSpyLogger.start()
 stopLogging()
