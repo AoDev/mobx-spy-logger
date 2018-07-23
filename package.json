@@ -24,7 +24,7 @@
   "scripts": {
     "dist": "webpack",
     "lint": "eslint lib --quiet",
-    "prepublish": "npm run dist",
+    "prepare": "npm run dist",
     "release": "standard-version",
     "test-unit": "jest",
     "test": "jest"
